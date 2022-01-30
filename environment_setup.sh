@@ -3,11 +3,9 @@ echo --- ENVIRONMENT SETUP FOR QNX ACADEMY GTEST PROJECT ---
 
 echo --- UPDATING LIST OF PACKAGES ---
 sudo apt-get update
-#echo *** INSTALLING PREREQUISITES FOR CMAKE ***
-#sudo apt-get install -y build-essential libssl-dev
 
 echo --- INSTALLING CMAKE ---
-sudo snap install cmake --classic
+sudo apt install -y cmake
 
 
 echo --- INSTALLING GOOGLE TESTS ---
